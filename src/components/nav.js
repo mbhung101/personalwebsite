@@ -17,6 +17,12 @@ export default class Nav extends Component {
         <div style={{padding:10}}>
           <a href="/writing" className="item">Writing</a>
         </div>
+        <div style={{padding:10}}>
+          <a href="/resume" className="item">Resume</a>
+        </div>
+        <div style={{padding:10}}>
+          <a href="/contact" className="item">Contact</a>
+        </div>
       </div>
     )
   }

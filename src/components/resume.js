@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Nav from './nav'
 
-export default class Reviews extends Component {
+export default class Resume extends Component {
 
   constructor(){
     super()
@@ -10,7 +10,7 @@ export default class Reviews extends Component {
     return(
       <div>
         <Nav/>
-        Reviews
+        Resume
       </div>
     )
   }
