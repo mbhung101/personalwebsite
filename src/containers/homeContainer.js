@@ -1,5 +1,8 @@
 import React, { Component } from 'react'
-import Landing from '../components/landing'
+import Home from '../components/home'
+import Projects from '../components/projects'
+import Reviews from '../components/reviews'
+import { Route, BrowserRouter } from 'react-router-dom'
 
 export default class HomeContainer extends Component {
 
@@ -11,9 +14,13 @@ export default class HomeContainer extends Component {
   }
   render(){
     return(
-      <div>
-        <Landing/>
-      </div>
+      <BrowserRouter>
+        <div>
+          <Route exact path = '/home' render= {() =><Home/>}/>
+          <Route exact path = '/projects' render= {() =><Projects/>}/>
+          <Route exact path = '/reviews' render= {() =><Reviews/>}/>
+        </div>
+      </BrowserRouter>
     )
   }
 }
