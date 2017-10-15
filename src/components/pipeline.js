@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Nav from './nav'
 
-export default class Contact extends Component {
+export default class Pipeline extends Component {
 
   constructor(){
     super()
@@ -10,7 +10,9 @@ export default class Contact extends Component {
     return(
       <div>
         <Nav/>
-        Contact
+        <p>
+          Pipeline
+        </p>
       </div>
     )
   }

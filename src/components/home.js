@@ -10,7 +10,9 @@ export default class Home extends Component {
     return(
       <div>
         <Nav/>
-        Home
+        <div classname="ui container">
+          <p> Hi, my name is Matthew Hung, a fullstack developer.  </p>
+        </div>
       </div>
     )
   }
