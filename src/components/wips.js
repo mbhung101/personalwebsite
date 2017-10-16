@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Nav from './nav'
 
-export default class Pipeline extends Component {
+export default class Wips extends Component {
 
   constructor(){
     super()
@@ -11,7 +11,7 @@ export default class Pipeline extends Component {
       <div>
         <Nav/>
         <p>
-          Pipeline
+          Works In Progress
         </p>
       </div>
     )
