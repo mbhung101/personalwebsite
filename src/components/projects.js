@@ -12,7 +12,7 @@ export default class Projects extends Component {
         <Nav/>
         <h1 align="center"> Sprout </h1>
         <hr></hr>
-        <div  className="ui text container">
+        <div className="ui text container">
           <font size="4"> Sprout is an app for anyone who grows plants! It can make a garden, save and track your vegetable harvests and compare your grows with other users.</font>
         </div>
         <br></br>
