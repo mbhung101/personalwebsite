@@ -31,6 +31,14 @@ export default class Projects extends Component {
         <div  className="ui text container">
           <font size="4"> Users can search for a the conditions of vegetables grown by others and accompanying data for when they harvested them to see when to expect thiers or get ideas on how to improve the next batch!  </font>
         </div>
+        <br></br>
+        <div align="center">
+          <img style={{width:900,height:500}} src={require('./imgs/sc3.png')} />
+        </div>
+        <br></br>
+        <div  className="ui text container">
+          <font size="4"> Check what fruits and veggies are being harvested this time of year and compare two vegetable conditions to turn your backyard into a science lab  </font>
+        </div>
         <a href= "https://github.com/mbhung101/SproutFront"> Frontend Link </a>
         <br></br>
         <a href= "https://github.com/mbhung101/SproutBack"> Backend Link </a>
