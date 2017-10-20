@@ -132,7 +132,7 @@ export default class Resume extends Component {
         <img style={{height:200,width:300}} src={require('./imgs/flatiron_gif.gif')} />
       </div>
       <div className="ehBox" style={{display:"inline-block",paddingLeft:15, paddingTop:50}}>
-         <font size="4"> 040317 "Full Metal Brackets" Cohort </font>
+         <font size="5"> 040317 "Full Metal Brackets" Cohort </font>
          <br></br>
          Software Engineer Immersive Program
          <hr></hr>
@@ -147,7 +147,7 @@ export default class Resume extends Component {
         <img style={{height:200,width:300}} src={require('./imgs/uwm2.jpg')} />
       </div>
       <div className="ehBox" style={{display:"inline-block",paddingLeft:15, paddingTop:50}}>
-         <font size="4">  Class of 2014 </font>
+         <font size="5">  Class of 2014 </font>
          <br></br>
          Degree in Medical Microbiology/ Immunology
          <hr></hr>
@@ -160,6 +160,38 @@ export default class Resume extends Component {
 
       <h2> Employment History </h2>
       <hr></hr>
+
+      <div style={{display:"inline-block",padding:50}}>
+        <img style={{height:250,width:250}} src={require('./imgs/mts.jpg')} />
+      </div>
+      <div className="ehBox" style={{display:"inline-block",paddingLeft:5, paddingTop:75}}>
+         <font size="5">  Soriano Lab - Associate Researcher </font>
+         <br></br>
+         July 2015 - July 2016
+         <hr></hr>
+         <ul>
+          <li> Worked in prestigous developmental biology lab to assist ongoing skull formation research </li>
+          <li> Designed and perfomred molcular biology experiments and genotyping database</li>
+          <li> Managed mouse colony, genetic standards, bacterial media, laboratory stocks, machinery</li>
+          <li> Attended seminars, defenses and presentations discussing and analyzing cutting-edge research</li>
+          <li> Wrote custom alogrithms and visualization tools to aid in day to day experimentation </li>
+         </ul>
+      </div>
+
+      <div style={{display:"inline-block",padding:20}}>
+        <img style={{height:200,width:300}} src={require('./imgs/mmi.jpeg')} />
+      </div>
+      <div className="ehBox" style={{display:"inline-block",paddingLeft:10, paddingTop:60}}>
+         <font size="5">  Ruby/Goodrich-Blair Lab - Undergraduate Researcher </font>
+         <br></br>
+         July 2012 - August 2014
+         <hr></hr>
+         <ul>
+          <li> Worked in 2 separate laboratories assisting graduate students studying bacterial interactions</li>
+          <li> Designed and perfomred molcular biology experiments under minimal supervision</li>
+          <li> Managed squid colony and learned/performed basic molecular techniques</li>
+         </ul>
+      </div>
 
     </div>
     )
