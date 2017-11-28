@@ -9,7 +9,7 @@ export default class Nav extends Component {
     return(
       <div className="ui tabular menu">
         <div style={{padding:10}}>
-          <a href="/home" className="item">About</a>
+          <a href="/" className="item">About</a>
         </div>
         <div style={{padding:10}}>
           <a href="/resume" className="item">Resume</a>
