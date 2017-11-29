@@ -134,15 +134,6 @@ export default class Resume extends Component {
 
         <div className="row">
           <div className="resumeContainer" style={{height:150,width:150,padding:10}}>
-            <img className="resumeImage" style={{height:150,width:150,padding:10}} src={require('./imgs/node.jpg')} />
-            <div className="overlay">
-              <div className="overlayText">Node JS</div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="resumeContainer" style={{height:150,width:150,padding:10}}>
             <img className="resumeImage" style={{height:150,width:150,padding:10}} src={require('./imgs/socket.png')} />
             <div className="overlay">
               <div className="overlayText">Socket IO</div>
