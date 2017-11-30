@@ -20,7 +20,7 @@ export default class Home2 extends Component {
         <br></br>
         <h3>
         So after some thought, I decided it was time to make a life-altering change by transitioning into technology. In my lab I had learned to code writing algorithms and small programs to help with experiments and realized that code was the outlet the could alleviate all the issues I had with academics while retaining the creativity and the problem-based learning that I loved.
-        It’s as open and omnipresent nature and allows for someone to make amazing things in the blink of an eye. Soon after, before I knew it, I enrolled and finsihed a coding bootcamp and here I am, just beginning to scratch the surface of what I can do with the amazing technologies I have at my fingertips.
+        It’s as open and omnipresent nature and allows for someone to make amazing things in the blink of an eye. Soon after, before I knew it, I enrolled and finished a coding bootcamp and here I am, just beginning to scratch the surface of what I can do with the amazing technologies I have at my fingertips.
         </h3>
       </div>
     )

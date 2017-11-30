@@ -210,7 +210,11 @@ export default class Resume extends Component {
           <li> Managed squid colony and learned/performed basic molecular techniques</li>
          </ul>
       </div>
-
+    <h2> Contact me: </h2>
+    <hr></hr>
+      <h3> matthewbhung101@gmail.com </h3>
+      <h3> 516-643-1834 </h3>
+      <br></br>
     </div>
     )
   }
