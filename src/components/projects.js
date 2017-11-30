@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import Nav from './nav'
+import { Card, Icon, Image } from 'semantic-ui-react'
 
 export default class Projects extends Component {
 
@@ -10,39 +11,49 @@ export default class Projects extends Component {
     return(
         <div>
         <Nav/>
-        <h1 align="center"> Sprout </h1>
-        <hr></hr>
-        <div className="ui text container">
-          <font size="4"> Sprout is an app for anyone who grows plants! It can make a garden, save and track your vegetable harvests and compare your grows with other users.</font>
+        <h1> Projects </h1> <hr></hr>
+        <div className="ui centered rows" style={{paddingLeft:50}}>
+          <div className = "row">
+            <div style={{height:450,width:500,padding:30}}>
+              <Card fluid={true}>
+                <a href= "/projects/sprout">
+                <Image src={require('./imgs/sc1.png')} />
+                </a>
+                <Card.Content>
+                  <Card.Header>
+                    Sprout
+                  </Card.Header>
+                  <Card.Description>
+                    Sprout is an app for anyone who grows plants. It can make a garden, save and track your vegetable harvests and compare your grows with other users.
+                  </Card.Description>
+                </Card.Content>
+              </Card>
+            </div>
+          </div>
+
+          <div className = "row">
+            <div style={{height:350,width:500,padding:30}}>
+              <Card fluid={true}>
+                <a href="https://rcf-client.herokuapp.com/">
+                <Image style={{height:250,width:400}} src={require('./imgs/rats.png')} />
+                </a>
+                <Card.Content>
+                  <Card.Header>
+                    Rats, Crime, Fire
+                  </Card.Header>
+                  <Card.Description>
+                    Rats, Crime, Fire utilizes 311 data from New York's Department of Health and Mental Hygiene to locate what gross complaints are being lodged in your neighborhood of choice.
+                  </Card.Description>
+                </Card.Content>
+              </Card>
+            </div>
+          </div>
+
         </div>
+
         <br></br>
-        <div align="center">
-          <img style={{width:900,height:500}} src={require('./imgs/sc1.png')} />
-        </div>
         <br></br>
-        <div  className="ui text container">
-          <font size="4"> A user profile contains changeable basic information and profile picture. From the home page, they can utilize the one of many the built in functionalities, like alerts and weather forecaster. </font>
-        </div>
-        <br></br>
-        <div align="center">
-          <img style={{width:900,height:500}} src={require('./imgs/sc2.png')} />
-        </div>
-        <br></br>
-        <div  className="ui text container">
-          <font size="4"> Users can search for a the conditions of vegetables grown by others and accompanying data for when they harvested them to see when to expect thiers or get ideas on how to improve the next batch!  </font>
-        </div>
-        <br></br>
-        <div align="center">
-          <img style={{width:900,height:500}} src={require('./imgs/sc3.png')} />
-        </div>
-        <br></br>
-        <div  className="ui text container">
-          <font size="4"> Check what fruits and veggies are being harvested this time of year and compare two vegetable conditions to turn your backyard into a science lab  </font>
-        </div>
-        <a href= "https://github.com/mbhung101/SproutFront"> Frontend Link </a>
-        <br></br>
-        <a href= "https://github.com/mbhung101/SproutBack"> Backend Link </a>
-        <br></br>
+        <h1> Works in Progress </h1> <hr></hr>
       </div>
     )
   }
