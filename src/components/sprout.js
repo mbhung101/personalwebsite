@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import Nav from './nav'
 export default class Sprout extends Component {
 
   constructor(){
@@ -7,6 +8,7 @@ export default class Sprout extends Component {
   render(){
     return(
       <div>
+      <Nav/>
       <h1 align="center"> Sprout </h1>
       <hr></hr>
       <div className="ui text container">
@@ -40,6 +42,5 @@ export default class Sprout extends Component {
       <br></br>
       <a href= "https://github.com/mbhung101/SproutBack"> Backend Link </a>
       <br></br>
-    </div>
-  )}
+      </div>  )}
 }

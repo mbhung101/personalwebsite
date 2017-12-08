@@ -48,12 +48,25 @@ export default class Projects extends Component {
               </Card>
             </div>
           </div>
-
         </div>
-
-        <br></br>
-        <br></br>
         <h1> Works in Progress </h1> <hr></hr>
+        <div className = "row" style={{paddingLeft:50}}>
+          <div style={{height:350,width:500,padding:30}}>
+            <Card fluid={true}>
+              <a href="/projects/random">
+              <Image style={{height:250,width:400}} src={require('./imgs/racer.png')} />
+              </a>
+              <Card.Content>
+                <Card.Header>
+                  Random Racer
+                </Card.Header>
+                <Card.Description>
+                  Use my bulky javascript recursion to determine a random order of given contestants
+                </Card.Description>
+              </Card.Content>
+            </Card>
+          </div>
+        </div>
       </div>
     )
   }

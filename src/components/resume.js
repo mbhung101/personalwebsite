@@ -7,7 +7,7 @@ export default class Resume extends Component {
     return(
     <div>
       <Nav/>
-      <h2> Comfortable With </h2>
+      <h2> Proficiencies </h2>
       <hr></hr>
 
       <div className="rows">
@@ -210,7 +210,9 @@ export default class Resume extends Component {
           <li> Managed squid colony and learned/performed basic molecular techniques</li>
          </ul>
       </div>
-    <h2> Contact me: </h2>
+    <h2> Download a Copy </h2>
+      <a href={require('./imgs/matthewhungresume.pdf')} download> Download </a>
+    <h2> Contact me </h2>
     <hr></hr>
       <h3> matthewbhung101@gmail.com </h3>
       <h3> 516-643-1834 </h3>
