@@ -11,7 +11,7 @@ export default class Home extends Component {
       <div style={{textAlign:"center"}}>
         <Nav/>
         <div className="ui container">
-          <p style={{fontSize:30}}> Hi, my name is Matthew Hung, a fullstack developer but also... </p>
+          <p style={{fontSize:30}}> So many personal websites say the same kinds of things: </p>
         </div>
         <br></br>
         <div className="ui vertically divided grid">
@@ -43,7 +43,7 @@ export default class Home extends Component {
           </div>
         </div>
         <div style={{padding:15}}>
-        <a style={{fontSize:50}} href="/home"> But Most Importantly </a>
+        <a style={{fontSize:50}} href="/home"> But this site is a little different </a>
         </div>
       </div>
     )
