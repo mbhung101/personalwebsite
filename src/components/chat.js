@@ -1,10 +1,12 @@
 import React, { Component } from 'react'
 import Nav from './nav'
-export default class Random extends Component {
+
+export default class Chat extends Component {
 
   constructor(){
     super()
   }
+
   render(){
     return(
       <div>
@@ -14,15 +16,16 @@ export default class Random extends Component {
           <div className="two column row">
 
             <div className="column">
-              <img src={require('./imgs/racer2.png')}/>
+              <img src={require('./imgs/chat2.png')}/>
             </div>
 
             <div className="column">
-              <h2> Random Race </h2>
+              <h2> React Chat </h2>
               <hr></hr>
               <div className="ui text container">
-              Decide the a random order of contestants; perfect for draft orders, games or just plain fun. Currently only text, but visual elements on the way.
-              Bulky Javascript recusrion alogrithm determines order based on incremental increases to track progress like a race; much less efficiently than merely getting a random integer.
+              React chat allows for instant communication between patient and caregiver.
+              The app distinguishes between clinician and patient during login and allows both to simply manage multiples conversations.
+              Chatrooms are updated in realtime and sends text notifications to offline users via text message.
               </div>
             </div>
           </div>
@@ -40,8 +43,9 @@ export default class Random extends Component {
             <div className = "ui text container">
               <div role="list" className="ui bulleted list">
                 <div role="listitem" className="item">React frontend</div>
-                <div role="listitem" className="item">"Charming" homemade Javascript recursion</div>
-                <div role="listitem" className="item">Semantic UI stylesheet CSS</div>
+                <div role="listitem" className="item">Ruby on Rails Backend</div>
+                <div role="listitem" className="item"> Websocket intergration (Socket IO)</div>
+                <div role="listitem" className="item">Twilio text notifications</div>
               </div>
             </div>
             </div>
@@ -49,7 +53,10 @@ export default class Random extends Component {
             <div className="column">
               <h2> Resources </h2>
               <div className= "ui text container">
-              <a href ="https://github.com/mbhung101/RandomRacer">Frontend github link</a>
+               <a href ="https://github.com/mbhung101/pwa-chat">Frontend github link</a>
+              </div>
+              <div className= "ui text container">
+              <a href = "https://github.com/mbhung101/pwa-back">Backend github link</a>
               </div>
             </div>
           </div>
@@ -57,5 +64,6 @@ export default class Random extends Component {
         </div>
 
       </div>
-    )}
+    )
+  }
 }

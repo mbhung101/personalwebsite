@@ -6,6 +6,8 @@ import Resume from '../components/resume'
 import Home2 from '../components/home2'
 import Random from '../components/random'
 import Sprout from '../components/sprout'
+import Chat from '../components/chat'
+import Rats from '../components/rats'
 import { Route, BrowserRouter } from 'react-router-dom'
 
 export default class HomeContainer extends Component {
@@ -21,9 +23,11 @@ export default class HomeContainer extends Component {
       <BrowserRouter>
         <div>
           <Route exact path = '/' render= {() =><Home/>}/>
+          <Route exact path = '/chat' render= {() =><Chat/>}/>
           <Route exact path = '/home' render= {() =><Home2/>}/>
           <Route exact path = '/projects' render= {() =><Projects/>}/>
           <Route exact path = '/projects/sprout' render= {() =><Sprout/>}/>
+          <Route exact path = '/projects/rats' render= {() =><Rats/>}/>
           <Route exact path = '/projects/random' render= {() =><Random/>}/>
           <Route exact path = '/fun' render= {() =><Fun/>}/>
           <Route exact path = '/resume' render= {() =><Resume/>}/>

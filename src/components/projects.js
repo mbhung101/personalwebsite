@@ -34,7 +34,7 @@ export default class Projects extends Component {
           <div className = "row">
             <div style={{height:350,width:500,padding:20}}>
               <Card fluid={true}>
-                <a href="https://rcf-client.herokuapp.com/">
+                <a href="/projects/rats">
                 <Image style={{height:250,width:400}} src={require('./imgs/rats.png')} />
                 </a>
                 <Card.Content>
@@ -69,6 +69,7 @@ export default class Projects extends Component {
             </div>
           </div>
         </div>
+        <br></br>
         <h1> Works in Progress </h1> <hr></hr>
         <div className = "row" style={{paddingLeft:50}}>
           <div style={{height:350,width:500,padding:30}}>
