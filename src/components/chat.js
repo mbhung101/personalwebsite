@@ -22,7 +22,7 @@ export default class Chat extends Component {
             <div className="column">
               <h2> React Chat </h2>
               <hr></hr>
-              <div className="ui text container">
+              <div>
               React chat allows for instant communication between patient and caregiver.
               The app distinguishes between clinician and patient during login and allows both to simply manage multiples conversations.
               Chatrooms are updated in realtime and sends text notifications to offline users via text message.

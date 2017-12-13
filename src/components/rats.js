@@ -20,7 +20,7 @@ export default class Sprout extends Component {
             <div className="column">
               <h2> Rats, Crime, Fire </h2>
               <hr></hr>
-              <div className="ui text container">
+              <div>
               As the name implies, this collaborative app utilizes New York Department of Health and Mental Hygiene 311 complaints to locate the location of different complaint types, including rats and some minor crimes.
               Using the Google Maps API, before you buy or rent a residence, you would be wise to search if there are any unwanted neighbors.
               The app also includes some statistics on total complaints and a fun quiz on the aggergated data.

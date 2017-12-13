@@ -20,7 +20,7 @@ export default class Sprout extends Component {
             <div className="column">
               <h2> Sprout </h2>
               <hr></hr>
-              <div className="ui text container">
+              <div>
               Sprout is the ultimate tool for anyone who desires to grow plants in a more methodical way.
               Users can make gardens, alerts and check weather anywhere they have put roots down.
               Then, the gardener can input vegetable conditions into thier various gardens, record when they harvest and see how much they have gathered already.

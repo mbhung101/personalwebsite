@@ -20,7 +20,7 @@ export default class Random extends Component {
             <div className="column">
               <h2> Random Race </h2>
               <hr></hr>
-              <div className="ui text container">
+              <div>
               Decide the a random order of contestants; perfect for draft orders, games or just plain fun. Currently only text, but visual elements on the way.
               Bulky Javascript recusrion alogrithm determines order based on incremental increases to track progress like a race; much less efficiently than merely getting a random integer.
               </div>
