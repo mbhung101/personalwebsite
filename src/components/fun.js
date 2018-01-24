@@ -77,6 +77,20 @@ export default class Fun extends Component {
         </Card>
         </div>
         </div>
+        <div className = "row">
+        <div style={{height:250,width:250,padding:10}}>
+        <Card fluid={true}>
+          <a href= "https://oldgrizzledgamers.com/first-glimpse/pit-people-preview-pc/">
+          <Image src="http://oceanofgames.com/wp-content/uploads/2017/01/Pit-People-Free-Download.jpg" />
+          </a>
+          <Card.Content>
+            <Card.Header>
+              Pit People
+            </Card.Header>
+          </Card.Content>
+        </Card>
+        </div>
+        </div>
         </div>
       </div>
     )

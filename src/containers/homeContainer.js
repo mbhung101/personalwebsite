@@ -8,6 +8,8 @@ import Random from '../components/random'
 import Sprout from '../components/sprout'
 import Chat from '../components/chat'
 import Rats from '../components/rats'
+import Gold from '../components/gold'
+import Aero from '../components/aero'
 import { Route, BrowserRouter } from 'react-router-dom'
 
 export default class HomeContainer extends Component {
@@ -31,6 +33,8 @@ export default class HomeContainer extends Component {
           <Route exact path = '/projects/random' render= {() =><Random/>}/>
           <Route exact path = '/fun' render= {() =><Fun/>}/>
           <Route exact path = '/resume' render= {() =><Resume/>}/>
+          <Route exact path = '/gold' render= {() =><Gold/>}/>
+          <Route exact path = '/aero' render= {() =><Aero/>}/>
         </div>
       </BrowserRouter>
     )

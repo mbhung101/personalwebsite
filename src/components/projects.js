@@ -68,8 +68,50 @@ export default class Projects extends Component {
               </Card>
             </div>
           </div>
+
+          <div className = "row">
+            <div style={{height:350,width:500,padding:20}}>
+              <Card fluid={true}>
+                <a href="/gold">
+                <Image style={{height:250,width:400}} src={require('./imgs/barrick1.png')} />
+                </a>
+                <Card.Content>
+                  <Card.Header>
+                    Barrick Test Page
+                  </Card.Header>
+                  <Card.Description>
+                    A freelance project made with extensive CSS and customized assets, with responsive displays
+                  </Card.Description>
+                </Card.Content>
+              </Card>
+            </div>
+          </div>
+
+        </div>
+        <div className="rows">
+          <div className = "row">
+            <div style={{height:350,width:500,padding:20,marginLeft:50,marginTop:50}}>
+              <Card fluid={true}>
+                <a href="/aero">
+                <Image style={{height:250,width:400}} src={require('./imgs/graph1.png')} />
+                </a>
+                <Card.Content>
+                  <Card.Header>
+                    Aerospace Map
+                  </Card.Header>
+                  <Card.Description>
+                    Network graph using vis js to visualize a complex dataset
+                  </Card.Description>
+                </Card.Content>
+              </Card>
+            </div>
+          </div>
         </div>
         <br></br>
+
+
+
+
         <h1> Works in Progress </h1> <hr></hr>
         <div className = "row" style={{paddingLeft:50}}>
           <div style={{height:350,width:500,padding:30}}>
